@@ -16,8 +16,7 @@ pytesseract.pytesseract.tesseract_cmd=r'C:/Program Files/Tesseract-OCR/tesseract
 img_0=face_recognition.load_image_file("photos\khil.jpg")
 imgenc_0=face_recognition.face_encodings(img_0)[0]
 
-#img_1=face_recognition.load_image_file("photos\khil1.jpg")
-#imgenc_1=face_recognition.face_encodings(img_1)[0]
+
 
 img_2=face_recognition.load_image_file("photos\pavan2.jpg")
 imgenc_2=face_recognition.face_encodings(img_2)[0]
